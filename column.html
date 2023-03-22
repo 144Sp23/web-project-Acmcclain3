@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Elevated</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Viewport or device type for website-->
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <!-- Fonts for the website-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #000;
+        }
+
+        img {
+            max-width: 30%;
+            display: block;
+        }
+
+        /* style rule for header*/
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #000;
+            height: 190px;
+        }
+
+        header img {
+            margin: 0 auto;
+        }
+
+        /* STyle for rules fornavigation area*/
+
+        nav {
+            padding: 1%;
+            margin-bottom: 1%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav li {
+            font-size: 1.5em;
+            font-family: 'Francois One', sans-serif;
+            border-top: 1px solid #fff;
+        }
+
+        nav li first-child {
+            border-top: none;
+        }
+
+        nav li a {
+            display: block;
+            color: #fff;
+            padding: 0.5em 1em;
+            text-decoration: none;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        div ul {
+            background-color: #000;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            float: center;
+        }
+
+        div li {
+            margin-top: 5%;
+            margin-bottom: 5%;
+            float: center;
+            display: block;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <a href="index.html"><img src="images/elevated-company-logo.jpg" alt="Elevated logo"></a>
+        </header>
+        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home &nbsp;</a></li>
+                <li><a href="about.html">About Us &nbsp;</a></li>
+                <li><a href="shop.html">Shop &nbsp;</a></li>
+                <li><a href="portfolio.html">Portfolio &nbsp;</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <h2>Shirts</h2>
+
+        <div class="row">
+            <div class="column" style="background-color:#000;">
+                <h2>Front</h2>
+                <li><img src="images/stoney-co-man-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/stoney-co-double-man-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/stoney-co-dark-girl-with-joint-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/skulls-white-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/skulls-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/pink-bunny-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/mythical-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/lust-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/easter-bunny-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/bold-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/as-above-so-below-front.jpeg" height="250" width="200"></li>
+                <li><img src="images/anger-front.jpeg" height="250" width="200"></li>
+            </div>
+            <div class="column" style="background-color:#000;">
+                <h2>Back</h2>
+                <li><img src="images/stoney-co-man-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/stoney-co-double-man-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/stoney-co-dark-girl-with-joint-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/skulls-white-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/skulls-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/pink-bunny-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/mythical-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/lust-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/easter-bunny-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/bold-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/as-above-so-below-back.jpeg" height="250" width="200"></li>
+                <li><img src="images/anger-back.jpeg" height="250" width="200"></li>
+            </div>
+        </div>
+    </div>
+
+</body></html>
